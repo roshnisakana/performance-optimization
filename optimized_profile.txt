@@ -1,0 +1,24 @@
+         234074 function calls (234058 primitive calls) in 0.084 seconds
+
+   Ordered by: cumulative time
+   List reduced from 48 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.084    0.084 /home/claude/week4/sales_analytics_optimized.py:165(process_sales_data)
+        1    0.018    0.018    0.070    0.070 /home/claude/week4/sales_analytics_optimized.py:34(generate_sales_data)
+    12167    0.004    0.000    0.024    0.000 /usr/lib/python3.12/random.py:332(randint)
+    12167    0.009    0.000    0.021    0.000 /usr/lib/python3.12/random.py:291(randrange)
+    12000    0.007    0.000    0.020    0.000 /usr/lib/python3.12/random.py:341(choice)
+    24255    0.012    0.000    0.019    0.000 /usr/lib/python3.12/random.py:242(_randbelow_with_getrandbits)
+        1    0.006    0.006    0.010    0.010 /home/claude/week4/sales_analytics_optimized.py:131(build_summary_report)
+    30652    0.003    0.000    0.003    0.000 {method 'getrandbits' of '_random.Random' objects}
+     4923    0.001    0.000    0.003    0.000 /home/claude/week4/sales_analytics_optimized.py:91(validate_date_format)
+    36501    0.003    0.000    0.003    0.000 {built-in method _operator.index}
+    24255    0.003    0.000    0.003    0.000 {method 'bit_length' of 'int' objects}
+     6000    0.002    0.000    0.003    0.000 /usr/lib/python3.12/random.py:494(uniform)
+    24008    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+     6001    0.003    0.000    0.003    0.000 {built-in method builtins.round}
+    11999    0.002    0.000    0.002    0.000 {method 'random' of '_random.Random' objects}
+
+
+

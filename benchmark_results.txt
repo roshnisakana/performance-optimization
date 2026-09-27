@@ -1,0 +1,11 @@
+Function                                     Baseline       Optimized   Speedup
+------------------------------------------------------------------------------------------
+find_duplicate_order_ids                baseline= 2125.493 ms   optimized=    0.883 ms   speedup=2407.1x
+compute_revenue_by_customer             baseline=   43.021 ms   optimized=    0.448 ms   speedup=  96.0x
+filter_blocked_records                  baseline=    4.364 ms   optimized=    0.384 ms   speedup=  11.4x
+rank_customers_by_revenue               baseline=    2.632 ms   optimized=    0.033 ms   speedup=  79.4x
+validate_date_format (x4923 calls)      baseline=    2.574 ms   optimized=    1.258 ms   speedup=   2.0x
+build_summary_report                    baseline=    6.916 ms   optimized=    5.402 ms   speedup=   1.3x
+
+Full pipeline (process_sales_data):
+process_sales_data (end-to-end)         baseline= 2238.799 ms   optimized=   20.558 ms   speedup= 108.9x

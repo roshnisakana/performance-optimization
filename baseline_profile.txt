@@ -1,0 +1,25 @@
+         244216 function calls (244202 primitive calls) in 2.210 seconds
+
+   Ordered by: cumulative time
+   List reduced from 80 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.210    2.210 /home/claude/week4/sales_analytics_baseline.py:162(process_sales_data)
+        1    2.073    2.073    2.076    2.076 /home/claude/week4/sales_analytics_baseline.py:54(find_duplicate_order_ids)
+        1    0.020    0.020    0.075    0.075 /home/claude/week4/sales_analytics_baseline.py:28(generate_sales_data)
+        1    0.038    0.038    0.038    0.038 /home/claude/week4/sales_analytics_baseline.py:68(compute_revenue_by_customer)
+    12167    0.004    0.000    0.026    0.000 /usr/lib/python3.12/random.py:332(randint)
+    12167    0.009    0.000    0.022    0.000 /usr/lib/python3.12/random.py:291(randrange)
+    12000    0.008    0.000    0.021    0.000 /usr/lib/python3.12/random.py:341(choice)
+    24255    0.013    0.000    0.020    0.000 /usr/lib/python3.12/random.py:242(_randbelow_with_getrandbits)
+        1    0.006    0.006    0.014    0.014 /home/claude/week4/sales_analytics_baseline.py:128(build_summary_report)
+     4923    0.002    0.000    0.008    0.000 /home/claude/week4/sales_analytics_baseline.py:89(validate_date_format)
+30220/30216    0.005    0.000    0.005    0.000 {built-in method builtins.len}
+        1    0.001    0.001    0.005    0.005 /home/claude/week4/sales_analytics_baseline.py:104(filter_blocked_records)
+     6167    0.004    0.000    0.004    0.000 /home/claude/week4/sales_analytics_baseline.py:99(is_blocked)
+     4923    0.001    0.000    0.004    0.000 /usr/lib/python3.12/re/__init__.py:226(compile)
+    30652    0.004    0.000    0.004    0.000 {method 'getrandbits' of '_random.Random' objects}
+
+
+
+{'total_records': 6167, 'filtered_records': 4923, 'duplicate_count': 162, 'unique_customers': 320, 'total_revenue': 1239446.45}
